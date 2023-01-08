@@ -1,0 +1,17 @@
+body{
+font-family: 'Roboto', sans-serif;
+height: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  background-color: red;
+}
+/* Nav Bar Styles */
+
+.nav-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
