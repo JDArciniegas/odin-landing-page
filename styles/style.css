@@ -1,17 +1,186 @@
 body{
 font-family: 'Roboto', sans-serif;
 height: 100%;
+margin: 0px;
+width: 100%;
+}
+
+header{
+  background-color: #1F2937;
 }
 
 .container {
   margin: auto;
-  width: 90%;
-  background-color: red;
+  border: 0px;
+  padding: 5% 10%;
 }
 /* Nav Bar Styles */
 
 .nav-container{
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  flex: 1 1 auto;
 }
+
+.nav-logo{
+  font-size: 24px;
+  color: #D3D5D7;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.nav-link{
+  font-size: 18px;
+  text-decoration: none;
+  color: #D3D5D7;
+}
+
+/* Header / Banner text */
+
+.main-text{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.banner{
+  width: 50%;
+}
+.banner-title{
+  color: #F9FaF8;
+  font-size: 48px;
+  font-weight: 900;
+
+}
+
+.banner-para{
+  color: #F9FaF8;
+}
+
+.placeholder{
+    text-align: center;
+    color: #F9FAF8;
+    width: 600px;
+    height: 200px;
+    background-color: gray;
+  }
+
+/* button */
+
+button {
+
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+/* header complete */
+/* images section */
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main > h2 {
+  margin-bottom: 75px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.card-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  gap: 0.5em;
+  margin: 20px;
+}
+
+.card-set > .image {
+  height: 160px;
+  width: 160px;
+  border: 4px #3882F6 solid;
+  border-radius: 20px;
+}
+
+.card-set > p {
+  color: #D3D5D7
+}
+
+/* section */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  width: 80%;
+}
+
+section > p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+section > h2 {
+  align-self: flex-end;
+  padding: 0 20%;
+}
+
+
+
+.call-to-action{
+  background-color: #3882F6;
+  color: white;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+}
+
+.call-to-action-button {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action-button > button {
+  border: 2px solid white;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.last-section{
+  background-color: #F9FAF8;
+}
+
+/*  footer */
+
+footer {
+  background-color: #1F2937;
+  color: #D3D5D7;
+  margin-bottom: 0px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
